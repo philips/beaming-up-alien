@@ -1,6 +1,9 @@
 Example code for Beaming up with Alien and Lua by Brandon Philips @ Open
 Source Bridge 2011
 
+All of this works in OS X 10.6. Patches accepted to get things working
+in other OSes.
+
 ## alien-puts
 
 Example app for calling puts from lua with alien.
