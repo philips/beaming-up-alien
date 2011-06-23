@@ -1,0 +1,2 @@
+#!/bin/sh
+gdb -q -x stack.gdb stack

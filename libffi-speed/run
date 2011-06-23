@@ -1,0 +1,8 @@
+#!/bin/sh
+for i in {16..30}; do
+	echo "2 ^ $i"
+	for e in linked ffi; do
+		echo "$e\c"
+		time ./$e $i > /dev/null
+	done
+done
