@@ -4,6 +4,11 @@ Source Bridge 2011
 All of this works in OS X 10.6. Patches accepted to get things working
 in other OSes.
 
+Install Pre-Reqs
+================
+    brew install lua luarocks sqlite
+    luarocks install alien
+
 alien-puts
 ----------
 Example app for calling puts from lua with alien.
